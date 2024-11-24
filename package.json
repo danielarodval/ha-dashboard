@@ -1,0 +1,25 @@
+{
+  "name": "ha-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Daniel Rodriguez",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.17",
+    "framer-motion": "^11.2.2",
+    "next": "^14.2.3",
+    "package": "^1.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

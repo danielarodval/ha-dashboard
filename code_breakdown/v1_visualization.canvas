@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"d5fbb963b37bf055","type":"group","x":-600,"y":-240,"width":400,"height":520,"label":"components"},
+		{"id":"857bcc343cf2eb15","type":"group","x":-580,"y":-200,"width":360,"height":240,"label":"layouts"},
+		{"id":"16fa7889f47a82ca","type":"group","x":240,"y":-240,"width":320,"height":240,"label":"pages"},
+		{"id":"cae271b1b1cb398f","type":"group","x":-140,"y":-240,"width":320,"height":140,"label":"lib"},
+		{"id":"b0781245bd8732f3","type":"text","text":"ha-dashboard","x":160,"y":-600,"width":250,"height":60,"color":"1"},
+		{"id":"df6ccf6f91b8da60","type":"file","file":"ha-dashboard/components/layouts/article.js","x":-520,"y":-160,"width":250,"height":60,"color":"3"},
+		{"id":"dfb00b7853f20150","type":"file","file":"ha-dashboard/components/layouts/main.js","x":-520,"y":-60,"width":250,"height":60,"color":"3"},
+		{"id":"9a8b24bdce5f3017","type":"file","file":"ha-dashboard/components/grid-item.js","x":-520,"y":80,"width":250,"height":60,"color":"3"},
+		{"id":"ed583e2c22d2726f","type":"file","file":"ha-dashboard/components/navbar.js","x":-520,"y":180,"width":250,"height":60,"color":"3"},
+		{"id":"e339ce5bebace695","type":"file","file":"ha-dashboard/lib/theme.js","x":-100,"y":-200,"width":250,"height":60,"color":"3"},
+		{"id":"6bd1ef7c44eafb0a","type":"file","file":"ha-dashboard/pages/_app.js","x":280,"y":-200,"width":250,"height":60,"color":"3"},
+		{"id":"4f6ce430f4dbe163","type":"file","file":"ha-dashboard/lib/theme.js","x":280,"y":-100,"width":250,"height":60,"color":"3"},
+		{"id":"c05e8297d26c3413","type":"file","file":"ha-dashboard/package.json","x":620,"y":-230,"width":250,"height":60,"color":"4"},
+		{"id":"17f7feb941f4a348","type":"file","file":"ha-dashboard/package-lock.json","x":920,"y":-230,"width":250,"height":60,"color":"4"}
+	],
+	"edges":[
+		{"id":"d478d08bb1487c28","fromNode":"b0781245bd8732f3","fromSide":"bottom","toNode":"d5fbb963b37bf055","toSide":"top"},
+		{"id":"93d78fd2cda47661","fromNode":"b0781245bd8732f3","fromSide":"bottom","toNode":"cae271b1b1cb398f","toSide":"top"},
+		{"id":"39999dd2ffaba565","fromNode":"b0781245bd8732f3","fromSide":"bottom","toNode":"c05e8297d26c3413","toSide":"top"},
+		{"id":"b04d68bfc051bc08","fromNode":"b0781245bd8732f3","fromSide":"bottom","toNode":"17f7feb941f4a348","toSide":"top"},
+		{"id":"4eb09f8d18aa9bb3","fromNode":"b0781245bd8732f3","fromSide":"bottom","toNode":"16fa7889f47a82ca","toSide":"top"}
+	]
+}
